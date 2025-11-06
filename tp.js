@@ -5,7 +5,7 @@ let bonjour = "hello"
 let tout_le_monde = "World"
 console.log(bonjour + tout_le_monde)
 
-let diam = 12
+let diam = 24
 
 let surface = (1/4*3.14)*(diam**2)
 
