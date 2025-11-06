@@ -13,20 +13,21 @@
 
 let age = 18
 let nationalite = "France"
-if (age  < 18 ){
-    if (nationalite == "France"){
+if (nationalite == "France") {
+    if (age  <18){
         console.log("La personne est mineur !")
+
     }
     else {
-        console.log("Aucune idée")
-    }
-    
-}
-else {
-    if (nationalite == "France"){
         console.log("La personne est majeur !")
     }
+}
+else if (nationalite=="Suisse"){
+    if (age  <17){
+        console.log("La personne est mineur !")
+
+    }
     else {
-        console.log("Aucune idée")
+        console.log("La personne est majeur !")
     }
 }
